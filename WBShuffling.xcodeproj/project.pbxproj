@@ -13,6 +13,17 @@
 		0D5BC6731F1B1D2700249136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5BC6711F1B1D2700249136 /* Main.storyboard */; };
 		0D5BC6751F1B1D2700249136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5BC6741F1B1D2700249136 /* Assets.xcassets */; };
 		0D5BC6781F1B1D2700249136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5BC6761F1B1D2700249136 /* LaunchScreen.storyboard */; };
+		0D5BC6821F1B200300249136 /* WBShuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5BC6811F1B200300249136 /* WBShuffling.m */; };
+		0D5BC6851F1B20CF00249136 /* WBConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5BC6841F1B20CF00249136 /* WBConfiguration.m */; };
+		0D5BC6881F1B222D00249136 /* WBPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5BC6871F1B222D00249136 /* WBPageControl.m */; };
+		0DD6E1CA1F1B236C00881B1F /* WBShufflingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6E1C11F1B236C00881B1F /* WBShufflingAnimation.m */; };
+		0DD6E1CB1F1B236C00881B1F /* WBImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6E1C31F1B236C00881B1F /* WBImageCache.m */; };
+		0DD6E1CC1F1B236C00881B1F /* WBImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6E1C51F1B236C00881B1F /* WBImageDownloader.m */; };
+		0DD6E1CD1F1B236C00881B1F /* WBWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6E1C71F1B236C00881B1F /* WBWeakTimer.m */; };
+		0DD6E1CE1F1B236C00881B1F /* UIImageView+WBImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6E1C91F1B236C00881B1F /* UIImageView+WBImageViewManager.m */; };
+		0DD6E1D21F1B348500881B1F /* DemoCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6E1D01F1B348500881B1F /* DemoCellTableViewCell.m */; };
+		0DD6E1D31F1B348500881B1F /* DemoCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD6E1D11F1B348500881B1F /* DemoCellTableViewCell.xib */; };
+		0DD6E1D51F1B3CE600881B1F /* shufflingImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0DD6E1D41F1B3CE600881B1F /* shufflingImage.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,26 @@
 		0D5BC6741F1B1D2700249136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5BC6771F1B1D2700249136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5BC6791F1B1D2700249136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5BC6801F1B200200249136 /* WBShuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBShuffling.h; sourceTree = "<group>"; };
+		0D5BC6811F1B200300249136 /* WBShuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBShuffling.m; sourceTree = "<group>"; };
+		0D5BC6831F1B20CF00249136 /* WBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBConfiguration.h; sourceTree = "<group>"; };
+		0D5BC6841F1B20CF00249136 /* WBConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBConfiguration.m; sourceTree = "<group>"; };
+		0D5BC6861F1B222D00249136 /* WBPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPageControl.h; sourceTree = "<group>"; };
+		0D5BC6871F1B222D00249136 /* WBPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPageControl.m; sourceTree = "<group>"; };
+		0DD6E1C01F1B236C00881B1F /* WBShufflingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBShufflingAnimation.h; sourceTree = "<group>"; };
+		0DD6E1C11F1B236C00881B1F /* WBShufflingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBShufflingAnimation.m; sourceTree = "<group>"; };
+		0DD6E1C21F1B236C00881B1F /* WBImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBImageCache.h; sourceTree = "<group>"; };
+		0DD6E1C31F1B236C00881B1F /* WBImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBImageCache.m; sourceTree = "<group>"; };
+		0DD6E1C41F1B236C00881B1F /* WBImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBImageDownloader.h; sourceTree = "<group>"; };
+		0DD6E1C51F1B236C00881B1F /* WBImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBImageDownloader.m; sourceTree = "<group>"; };
+		0DD6E1C61F1B236C00881B1F /* WBWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBWeakTimer.h; sourceTree = "<group>"; };
+		0DD6E1C71F1B236C00881B1F /* WBWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBWeakTimer.m; sourceTree = "<group>"; };
+		0DD6E1C81F1B236C00881B1F /* UIImageView+WBImageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WBImageViewManager.h"; sourceTree = "<group>"; };
+		0DD6E1C91F1B236C00881B1F /* UIImageView+WBImageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WBImageViewManager.m"; sourceTree = "<group>"; };
+		0DD6E1CF1F1B348500881B1F /* DemoCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCellTableViewCell.h; sourceTree = "<group>"; };
+		0DD6E1D01F1B348500881B1F /* DemoCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCellTableViewCell.m; sourceTree = "<group>"; };
+		0DD6E1D11F1B348500881B1F /* DemoCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCellTableViewCell.xib; sourceTree = "<group>"; };
+		0DD6E1D41F1B3CE600881B1F /* shufflingImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shufflingImage.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +73,7 @@
 		0D5BC65C1F1B1D2700249136 = {
 			isa = PBXGroup;
 			children = (
+				0DD6E1D41F1B3CE600881B1F /* shufflingImage.gif */,
 				0D5BC6671F1B1D2700249136 /* WBShuffling */,
 				0D5BC6661F1B1D2700249136 /* Products */,
 			);
@@ -58,10 +90,14 @@
 		0D5BC6671F1B1D2700249136 /* WBShuffling */ = {
 			isa = PBXGroup;
 			children = (
+				0D5BC67F1F1B1FC900249136 /* Shuffling */,
 				0D5BC66B1F1B1D2700249136 /* AppDelegate.h */,
 				0D5BC66C1F1B1D2700249136 /* AppDelegate.m */,
 				0D5BC66E1F1B1D2700249136 /* ViewController.h */,
 				0D5BC66F1F1B1D2700249136 /* ViewController.m */,
+				0DD6E1CF1F1B348500881B1F /* DemoCellTableViewCell.h */,
+				0DD6E1D01F1B348500881B1F /* DemoCellTableViewCell.m */,
+				0DD6E1D11F1B348500881B1F /* DemoCellTableViewCell.xib */,
 				0D5BC6711F1B1D2700249136 /* Main.storyboard */,
 				0D5BC6741F1B1D2700249136 /* Assets.xcassets */,
 				0D5BC6761F1B1D2700249136 /* LaunchScreen.storyboard */,
@@ -77,6 +113,29 @@
 				0D5BC6691F1B1D2700249136 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D5BC67F1F1B1FC900249136 /* Shuffling */ = {
+			isa = PBXGroup;
+			children = (
+				0D5BC6801F1B200200249136 /* WBShuffling.h */,
+				0D5BC6811F1B200300249136 /* WBShuffling.m */,
+				0DD6E1C01F1B236C00881B1F /* WBShufflingAnimation.h */,
+				0DD6E1C11F1B236C00881B1F /* WBShufflingAnimation.m */,
+				0DD6E1C21F1B236C00881B1F /* WBImageCache.h */,
+				0DD6E1C31F1B236C00881B1F /* WBImageCache.m */,
+				0DD6E1C41F1B236C00881B1F /* WBImageDownloader.h */,
+				0DD6E1C51F1B236C00881B1F /* WBImageDownloader.m */,
+				0DD6E1C61F1B236C00881B1F /* WBWeakTimer.h */,
+				0DD6E1C71F1B236C00881B1F /* WBWeakTimer.m */,
+				0DD6E1C81F1B236C00881B1F /* UIImageView+WBImageViewManager.h */,
+				0DD6E1C91F1B236C00881B1F /* UIImageView+WBImageViewManager.m */,
+				0D5BC6831F1B20CF00249136 /* WBConfiguration.h */,
+				0D5BC6841F1B20CF00249136 /* WBConfiguration.m */,
+				0D5BC6861F1B222D00249136 /* WBPageControl.h */,
+				0D5BC6871F1B222D00249136 /* WBPageControl.m */,
+			);
+			path = Shuffling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +198,8 @@
 			files = (
 				0D5BC6781F1B1D2700249136 /* LaunchScreen.storyboard in Resources */,
 				0D5BC6751F1B1D2700249136 /* Assets.xcassets in Resources */,
+				0DD6E1D51F1B3CE600881B1F /* shufflingImage.gif in Resources */,
+				0DD6E1D31F1B348500881B1F /* DemoCellTableViewCell.xib in Resources */,
 				0D5BC6731F1B1D2700249136 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5BC6851F1B20CF00249136 /* WBConfiguration.m in Sources */,
 				0D5BC6701F1B1D2700249136 /* ViewController.m in Sources */,
+				0DD6E1CA1F1B236C00881B1F /* WBShufflingAnimation.m in Sources */,
+				0DD6E1CB1F1B236C00881B1F /* WBImageCache.m in Sources */,
 				0D5BC66D1F1B1D2700249136 /* AppDelegate.m in Sources */,
+				0D5BC6881F1B222D00249136 /* WBPageControl.m in Sources */,
+				0DD6E1CE1F1B236C00881B1F /* UIImageView+WBImageViewManager.m in Sources */,
+				0DD6E1CD1F1B236C00881B1F /* WBWeakTimer.m in Sources */,
 				0D5BC66A1F1B1D2700249136 /* main.m in Sources */,
+				0DD6E1CC1F1B236C00881B1F /* WBImageDownloader.m in Sources */,
+				0DD6E1D21F1B348500881B1F /* DemoCellTableViewCell.m in Sources */,
+				0D5BC6821F1B200300249136 /* WBShuffling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +379,7 @@
 				0D5BC67E1F1B1D2700249136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

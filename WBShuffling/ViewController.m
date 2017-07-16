@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "DemoCellTableViewCell.h"
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
@@ -16,7 +16,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self creatTableView];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)creatTableView
+{
+    UITableView * demoTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
+    demoTableView.backgroundColor = [UIColor clearColor];
+    demoTableView.delegate = self;
+    demoTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    demoTableView.dataSource = self;
+    [self.view addSubview:demoTableView];
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 5;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 208;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString * cellIdentifier = @"DemoCellTableViewCell";
+    
+    DemoCellTableViewCell * cell = (DemoCellTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"DemoCellTableViewCell" owner:nil options:nil] firstObject];
+        cell.selectionStyle = UITableViewCellAccessoryNone;
+    }
+    
+    [cell creatShuffling:indexPath.row];
+    
+    return cell;
 }
 
 
